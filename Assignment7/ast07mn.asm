@@ -1,8 +1,8 @@
 ;  CS 218
 ;  Assignment #7
-;	name: Michael Dimitrov
+;	name: --Removed--
 ;	assignment #07
-;	section #1003
+;	section --Removed--
 
 ;PROGRAM DESCRIPTION:
 ;  Sort a list of number using the selection sort algorithm.
