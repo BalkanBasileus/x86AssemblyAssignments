@@ -1,0 +1,49 @@
+#------------------------------------
+# CS 218
+#   Assignment #7
+#   Debugger Script File
+#------------------------------------
+echo \n\n
+break last
+run
+set pagination off
+set logging file a7out.txt
+set logging overwrite
+set logging on
+set prompt
+echo \n
+echo ------------------------------------ \n
+echo array \n
+x/300ud &array
+echo \n
+echo ------------------------------------ \n
+echo length: \t
+x/ud &length
+echo minimum: \t
+x/ud &minimum
+echo median: \t
+x/ud &median
+echo maximum: \t
+x/ud &maximum
+echo sum: \t
+x/ud &sum
+echo average: \t
+x/dd &average
+echo \n
+echo ------------------------------------ \n
+
+echo \n
+echo ------------------------------------ \n
+echo i: \t
+x/ud &i
+echo j: \t
+x/ud &j
+echo index: \t
+x/ud &index
+echo small: \t
+x/ud &small
+echo \n
+echo ------------------------------------ \n
+echo \n \n
+set logging off
+quit
