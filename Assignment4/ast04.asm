@@ -1,8 +1,8 @@
 ; *****************************************************************
 ;  Must include:
-;	name: Michael Dimitrov
+;	name: --Removed--
 ;	assignment #04
-;	section #1003
+;	section --Removed--
 
 ; -----
 ;  Write a simple assembly language program to compute a series
