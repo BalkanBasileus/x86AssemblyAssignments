@@ -1,8 +1,8 @@
 ; *****************************************************************
 ;  Must include:
-;	name: Michael Dimitrov
+;	name: --Removed--
 ;	assignment #05
-;	section #1003
+;	section --Removed--
 
 ; -----
 ;PROGRAM DESCRIPTION:
