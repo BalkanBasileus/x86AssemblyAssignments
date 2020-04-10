@@ -1,0 +1,79 @@
+#------------------------------------
+# CS 218
+#   Assignment #5
+#   Debugger Script File
+#------------------------------------
+echo \n\n
+break last
+run
+set pagination off
+set logging file a5out.txt
+set logging overwrite
+set logging on
+set prompt
+echo \n
+echo ------------------------------------ \n
+echo displayvariables \n
+echo bases: \t
+echo \n
+x/60ub &bases
+echo heights: \t
+echo \n
+x/60uw &heights
+echo slants: \t
+echo \n
+x/60uw &slants
+echo lengths: \t
+echo \n
+x/60ud &lengths
+echo \n
+echo ------------------------------------ \n
+echo length: \t
+x/dd &length
+echo sAreaMin: \t
+x/dd &sAreaMin
+echo sAreaEstMed: \t
+x/dd &sAreaEstMed
+echo sAreaMax: \t
+x/dd &sAreaMax
+echo sAreaSum: \t
+x/dd &sAreaSum
+echo sAreaAve: \t
+x/dd &sAreaAve
+echo \n
+echo ------------------------------------ \n
+echo volMin: \t
+x/dd &volMin
+echo volEstMed: \t
+x/dd &volEstMed
+echo volMax: \t
+x/dd &volMax
+echo volSum: \t
+x/dd &volSum
+echo volAve: \t
+x/dd &volAve
+echo \n
+echo ------------------------------------ \n
+echo Uninitialized Variables \n
+echo saAreas: \t
+x/resd &saAreas
+echo volumes: \t
+x/resd &volumes
+echo tmp: \t
+x/dd &tmp
+echo \n
+echo ------------------------------------ \n
+echo ddTwo: \t
+x/dd &ddTwo
+echo \n
+echo ------------------------------------ \n
+echo saAreas: \t
+echo \n
+x/60resd &saAreas
+echo volumes: \t
+echo \n
+x/60resd &volumes
+
+echo \n \n
+set logging off
+quit
